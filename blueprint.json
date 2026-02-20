@@ -18,12 +18,9 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "wordpress.org",
-        "slug": "elementor"
+        "slug": "elementor",
+        "path": "elementor/elementor.php"
       }
-    },
-    {
-      "step": "activatePlugin",
-      "pluginPath": "elementor/elementor.php"
     },
 
     {
