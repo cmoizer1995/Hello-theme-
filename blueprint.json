@@ -1,11 +1,12 @@
 {
   "landingPage": "/",
   "steps": [
+
     {
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/da21718d2324906db9f54bdf912229f6aec11422/helloworldmentopro.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/main/helloworldmentopro.zip"
       }
     },
     {
@@ -17,12 +18,25 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/da21718d2324906db9f54bdf912229f6aec11422/hide-admin-bar-quiet.zip"
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/main/hide-admin-bar-quiet.zip"
       }
     },
     {
       "step": "activatePlugin",
       "pluginPath": "hide-admin-bar-quiet/hide-admin-bar-quiet.php"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/main/sidebar-menu-multisite-v1.8.2.zip"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "sidebar-menu-multisite/sidebar-menu-multisite.php"
     }
+
   ]
 }
