@@ -1,1 +1,54 @@
+{
+  "landingPage": "/",
+  "steps": [
 
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/d53086962ae00ca8cce26533ad54937a0519b6bc/helloworldmentopro.zip"
+      }
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "helloworldmentopro"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "elementor"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "elementor/elementor.php"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/d53086962ae00ca8cce26533ad54937a0519b6bc/hide-admin-bar-quiet.zip"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "hide-admin-bar-quiet/hide-admin-bar-quiet.php"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/d53086962ae00ca8cce26533ad54937a0519b6bc/sidebar-menu-multisite-v1.8.2.zip"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "sidebar-menu-multisite/sidebar-menu-multisite.php"
+    }
+
+  ]
+}
