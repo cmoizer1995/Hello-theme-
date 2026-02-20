@@ -17,6 +17,18 @@
     {
       "step": "installPlugin",
       "pluginData": {
+        "resource": "wordpress.org",
+        "slug": "elementor"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "elementor/elementor.php"
+    },
+
+    {
+      "step": "installPlugin",
+      "pluginData": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/cmoizer1995/Hello-theme-/main/hide-admin-bar-quiet.zip"
       }
